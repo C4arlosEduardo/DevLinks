@@ -14,12 +14,12 @@ function toggleMode(){
       // substituir a imagem e descrição
       if(html.classList.contains('light')){
        // se tiver ligth mode, adcionar a imagem light
-       img.setAttribute('src', '/assets/avatar-light.png')
+       img.setAttribute('src', './assets/avatar-light.png')
        img.setAttribute('alt', 'Foto de Mayk Brito sorrindo, usando óculos escuros e blusa de couro preto e fundo roxo')
       } else {
 
    // se tiver sem ligth mode, manter a imagem normal
-   img.setAttribute('src', '/assets/avatar.png')
+   img.setAttribute('src', './assets/avatar.png')
    img.setAttribute('alt', 'Foto de Mayk Brito sorrindo, usando óculos e blusa de couro preto e fundo roxo')
 }
 
